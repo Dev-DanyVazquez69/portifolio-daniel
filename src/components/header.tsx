@@ -5,7 +5,7 @@ import Link from "next/link";
 
 const Header: React.FC = () => {
     return (
-        <header className="justify-between flex items-center md:w-3/4 p-4 border rounded-lg mx-auto sticky top-0 bg-background z-10 animate-pulse">
+        <header className="justify-between flex items-center md:w-3/4 p-4 border rounded-lg mx-auto">
             <div className="hidden md:flex gap-6">
                 <Link href={"#inicial"}>Inicio</Link>
                 <Link href={"#sobre-mim"}>Sobre mim</Link>

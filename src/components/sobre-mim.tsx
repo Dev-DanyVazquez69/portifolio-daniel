@@ -8,7 +8,7 @@ const SobreMim: React.FC = () => {
     return (
         <div id="sobre-mim" className="flex h-1/2 p-5">
             <section className="flex flex-1 flex-col justify-center">
-                <h1 className="font-black text-lg">Sobre mim</h1>
+                <h2 className="font-black text-lg">Sobre mim</h2>
                 <p>Meu nome é Daniel e sou desenvolvedor front-end.</p>
             </section>
             <section className="flex flex-1 justify-center items-center">

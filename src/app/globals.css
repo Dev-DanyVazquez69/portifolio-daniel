@@ -72,4 +72,10 @@ body {
   body {
     @apply bg-background text-foreground;
   }
+  h1 {
+    @apply font-black text-lg;
+  }
+  h2 {
+    @apply font-black text-lg;
+  }
 }

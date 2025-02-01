@@ -6,9 +6,9 @@ import {
 
 const SobreMim: React.FC = () => {
     return (
-        <div id="sobre-mim" className="flex h-1/2 p-5">
-            <section className="flex flex-1 flex-col justify-center">
-                <h2 className="font-black text-lg">Sobre mim</h2>
+        <div id="sobre-mim" className="flex flex-col md:flex-row py-20 gap-5">
+            <section className="flex flex-1 flex-col gap-5">
+                <h2 className="font-black text-5xl">Sobre mim</h2>
                 <p>Meu nome é Daniel e sou desenvolvedor front-end.</p>
             </section>
             <section className="flex flex-1 justify-center items-center">

@@ -7,7 +7,7 @@ import SobreMim from "@/components/sobre-mim";
 
 export default function Home() {
   return (
-    <main className="min-h-screen min-w-screen py-5 px-5 md:px-10">
+    <main className="min-h-screen min-w-screen py-5 px-5 md:px-20">
       <Header />
       <Inicial />
       <SobreMim />

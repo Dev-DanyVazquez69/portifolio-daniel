@@ -10,7 +10,7 @@ const Header: React.FC = () => {
                 <Link href={"#inicial"}>Inicio</Link>
                 <Link href={"#sobre-mim"}>Sobre mim</Link>
                 <Link href={"#HardSkills"}>HardSkills</Link>
-                <Link href={"#"}>Projetos</Link>
+                <Link href={"#projects"}>Projetos</Link>
                 <Link href={"#"}>Formação</Link>
                 <Link href={"#"}>Contatos</Link>
             </div>
@@ -28,7 +28,7 @@ const Header: React.FC = () => {
                                     <Link href={"#inicial"}>Inicio</Link>
                                     <Link href={"#sobre-mim"}>Sobre mim</Link>
                                     <Link href={"#HardSkills"}>HardSkills</Link>
-                                    <Link href={"#"}>Projetos</Link>
+                                    <Link href={"#projects"}>Projetos</Link>
                                     <Link href={"#"}>Formação</Link>
                                     <Link href={"#"}>Contatos</Link>
                                 </div>

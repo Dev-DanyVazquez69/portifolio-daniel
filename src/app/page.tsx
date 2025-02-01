@@ -1,3 +1,4 @@
+import Formacao from "@/components/formacao";
 import HardSkills from "@/components/hard-skills";
 import Header from "@/components/header";
 import Inicial from "@/components/inicial";
@@ -13,6 +14,7 @@ export default function Home() {
       <SobreMim />
       <HardSkills />
       <Projects />
+      <Formacao />
     </main>
   );
 }

@@ -49,7 +49,7 @@ const Projects = () => {
     ]
 
   return (
-    <div id="HardSkills" className="flex flex-col h-1/2 py-20 items-center gap-16">
+    <div id="projects" className="flex flex-col h-1/2 py-20 items-center gap-16">
       <h2 className="font-bold text-2xl">Projetos</h2>
       <Carousel
         opts={{

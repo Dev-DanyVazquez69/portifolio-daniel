@@ -1,12 +1,11 @@
 import { Link } from "lucide-react";
-import { Card, CardContent } from "../components/ui/card"
+import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "../components/ui/card"
 import {
   Carousel,
   CarouselContent,
   CarouselItem,
-  CarouselNext,
-  CarouselPrevious,
 } from "@/components/ui/carousel"
+import Image from "next/image";
 
 const Projects = () => {
 
@@ -17,34 +16,16 @@ const Projects = () => {
     background: string;
   }[] = [
       {
-        title: "Projeto 1",
-        description: "Descrição do projeto 1",
-        link: "https://github.com",
-        background: "bg-red-500",
+        title: "Invent-ti",
+        description: "Aplicação para gerenciamento de inventário de TI",
+        link: "https://github.com/Dev-DanyVazquez69/inven-ti",
+        background: "/inventi.png",
       },
       {
-        title: "Projeto 2",
-        description: "Descrição do projeto 2",
-        link: "https://github.com",
-        background: "bg-blue-500",
-      },
-      {
-        title: "Projeto 3",
-        description: "Descrição do projeto 3",
-        link: "https://github.com",
-        background: "bg-green-500",
-      },
-      {
-        title: "Projeto 4",
-        description: "Descrição do projeto 4",
-        link: "https://github.com",
-        background: "bg-yellow-500",
-      },
-      {
-        title: "Projeto 5",
-        description: "Descrição do projeto 5",
-        link: "https://github.com",
-        background: "bg-purple-500",
+        title: "Santos Pet",
+        description: "Aplicação para gerenciamento informações sobre pets",
+        link: "https://github.com/Dev-DanyVazquez69/santos-pets",
+        background: "/santosPetz.png",
       },
     ]
 
@@ -59,14 +40,20 @@ const Projects = () => {
       >
         <CarouselContent>
           {projects.map((project, index) => (
-            <CarouselItem key={index} className="md:basis-1/2 lg:basis-1/4">
-              <div className="p-1">
-                <Card>
-                  <CardContent className="flex flex-col aspect-square items-center justify-center p-6">
-                    <h3>{project.title}</h3>
-                    <span>{project.description}</span>
-                    <a href={project.link}>
+            <CarouselItem key={index} className="md:basis-1/2 lg:basis-1/3">
+              <div className="p-1 h-full">
+                <Card className="h-full items-end">
+                  <CardHeader>
+                    <CardTitle className="uppercase text-center">{project.title}</CardTitle>
+                    <CardDescription className="text-center" title={project.description}>{project.description}</CardDescription>
+                  </CardHeader>
+                  <CardContent className="relative flex flex-col aspect-square items-center justify-center p-6 text-center">
+                    <a href={project.link} target="_blank" rel="noreferrer">
                       <Link />
+                      <Image 
+                      alt="project-image" 
+                      src={project.background}
+                      fill/>
                     </a>
                   </CardContent>
                 </Card>
@@ -74,8 +61,6 @@ const Projects = () => {
             </CarouselItem>
           ))}
         </CarouselContent>
-        <CarouselPrevious />
-        <CarouselNext />
       </Carousel>
     </div>
   );

@@ -55,10 +55,10 @@ const Experience: React.FC = () => {
     return (
         <div id="experience" className="flex flex-col h-1/2 py-20 items-center gap-16">
             <h2 className="font-bold text-2xl">Experiência</h2>
-            <div ref={containerRef} className="relative border-l-4 border-blue-500 pl-6">
+            <div ref={containerRef} className="relative border-l-4 border-blue-700 pl-6">
                 {experiences.map((exp, index) => (
                     <div key={index} className="mb-8 relative">
-                        <div className="absolute -left-8 top-0 w-6 h-6 bg-blue-500 rounded-full flex items-center justify-center">
+                        <div className="absolute -left-8 top-0 w-6 h-6 bg-blue-700 rounded-full flex items-center justify-center">
                             <Briefcase size={16} className="text-white" />
                         </div>
                         <h3 className="text-lg font-semibold">{exp.role}</h3>

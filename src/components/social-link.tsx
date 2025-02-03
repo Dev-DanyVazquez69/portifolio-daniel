@@ -14,7 +14,7 @@ const SocialLink: React.FC = () => {
             },
             {
                 name: "whatsapp",
-                href: "https://api.whatsapp.com/send/?phone=55985617643&text=Ol%C3%A1%2C+gostaria+de+conversar+sobre+uma+proposta+de+trabalho&type=phone_number&app_absent=0",
+                href: "https://api.whatsapp.com/send/?phone=5598985617643&text=Ol%C3%A1%2C+gostaria+de+conversar+sobre+uma+proposta+de+trabalho&type=phone_number&app_absent=0",
                 src: "whatsapp.svg"
             },
             {

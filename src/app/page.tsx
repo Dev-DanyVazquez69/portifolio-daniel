@@ -16,7 +16,7 @@ export default function Home() {
       <SobreMim />
       <HardSkills />
       <Projects />
-      <Experience/>
+      <Experience />
       <Training />
       <Contacts />
     </main>

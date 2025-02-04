@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { Card, CardContent } from "./ui/card"
 import {
   Carousel,
@@ -36,8 +37,12 @@ const Training = () => {
               <div className="p-1">
                 <Card>
                   <CardContent className="aspect-square flex flex-col items-center justify-center gap-5 p-6 border text-center rounded-sm">
+                    <Image
+                      src="/undb.png"
+                      alt="UNDB"
+                      width={200}
+                      height={200}/>
                     <h3 className="text-lg font-bold uppercase">{formacao.title}</h3>
-                    <span>{formacao.institution}</span>
                     <span className="text-sm font-thin italic">{formacao.date}</span>
                   </CardContent>
                 </Card>

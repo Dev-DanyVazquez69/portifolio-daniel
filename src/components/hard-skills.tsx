@@ -18,6 +18,11 @@ const HardSkills = () => {
         "react.svg",
         "nextjs.svg",
         "git.svg",
+        "zod.svg",
+        "tailwindcss.svg",
+        "auth.svg",
+        "styled.svg",
+        "prisma.svg",
     ]
 
     useLayoutEffect(() => {

@@ -42,7 +42,7 @@ const Header: React.FC = () => {
         <header className="justify-between flex items-center md:w-10/12 p-4 border rounded-lg mx-auto my-10">
             <div className="hidden lg:flex gap-6">
                 {links.map((link, index) => (
-                    <Link key={index} href={link.href}>{link.name}</Link>
+                    <Link className="scale-100 opacity-75 hover:scale-110 transform transition duration-300 ease-in-out hover:opacity-100" key={index} href={link.href}>{link.name}</Link>
                 ))}
             </div>
             <ModeToggle />

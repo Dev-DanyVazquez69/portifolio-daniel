@@ -29,7 +29,7 @@ const SocialLink: React.FC = () => {
             }
         ]
 
-    const styledLink = "dark:bg-background bg-foreground rounded-sm p-2";
+    const styledLink = "dark:bg-background bg-foreground rounded-sm p-2 scale-100 hover:scale-110 transform transition duration-300 ease-in-out"; 
 
     return (
         <>

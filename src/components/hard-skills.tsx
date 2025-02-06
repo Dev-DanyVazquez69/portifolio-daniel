@@ -21,7 +21,6 @@ const HardSkills = () => {
         "zod.svg",
         "tailwindcss.svg",
         "auth.svg",
-        "styled.svg",
         "prisma.svg",
     ]
 
